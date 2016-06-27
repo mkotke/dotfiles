@@ -51,7 +51,7 @@ ZSH_THEME="nasty"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git sudo docker systemd)
 
-
+# Testcommentar
 # User configuration
 
   export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
