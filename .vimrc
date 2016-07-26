@@ -16,3 +16,5 @@ set hlsearch
 let mapleader="," 
 nnoremap <leader><space> :nohlsearch<CR>
 set pastetoggle=<F10>
+set wildmenu
+set wildchar=<Tab>
