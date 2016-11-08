@@ -86,3 +86,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias tmux="tmux -2"
 alias vi=vim
+ALIASFILE=~/.aliasrc
+source $ALIASFILE

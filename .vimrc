@@ -18,3 +18,4 @@ nnoremap <leader><space> :nohlsearch<CR>
 set pastetoggle=<F10>
 set wildmenu
 set wildchar=<Tab>
+cmap w!! w !sudo tee > /dev/null %
