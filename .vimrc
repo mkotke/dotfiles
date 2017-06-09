@@ -1,4 +1,7 @@
 execute pathogen#infect()
+set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
+set laststatus=2
+set nocompatible
 set clipboard=unnamedplus
 let $LANG = 'en'
 set langmenu=none
@@ -17,11 +20,14 @@ set lazyredraw
 set showmatch
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
+set list listchars=tab:\ \ ,trail:·
+set autoread
+set shortmess+=I
 let mapleader="," 
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <F9> :set nu! rnu! nu?<CR>
-vnoremap <C-c> :w !pbcopy<CR><CR> 
-noremap <C-v> :r !pbpaste<CR><CR>
 set pastetoggle=<F10>
 set wildmenu
 set wildchar=<Tab>
