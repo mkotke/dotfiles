@@ -22,7 +22,6 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
-set list listchars=tab:\ \ ,trail:·
 set autoread
 set shortmess+=I
 let mapleader="," 
