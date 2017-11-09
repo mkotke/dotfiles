@@ -35,3 +35,4 @@ set pastetoggle=<F10>
 set wildmenu
 set wildchar=<Tab>
 cmap w!! w !sudo tee > /dev/null %
+
