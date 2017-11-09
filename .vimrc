@@ -1,4 +1,5 @@
 execute pathogen#infect()
+set viminfo+=n~/.vim/viminfo
 set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
 set laststatus=2
 set nocompatible
@@ -8,9 +9,12 @@ set langmenu=none
 set t_Co=256
 colorscheme badwolf
 syntax enable
-set tabstop=4
-set softtabstop=4
-set expandtab
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=2
+set tabstop=2
 set relativenumber
 set number
 set showcmd
