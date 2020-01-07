@@ -9,7 +9,7 @@ set langmenu=none
 set t_Co=256
 colorscheme badwolf
 syntax enable
-set noexpandtab
+set expandtab
 set copyindent
 set preserveindent
 set softtabstop=0
