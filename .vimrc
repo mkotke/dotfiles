@@ -31,6 +31,7 @@ set shortmess+=I
 let mapleader="," 
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <F9> :set nu! rnu! nu?<CR>
+nnoremap <F5> :set list!<CR>
 set pastetoggle=<F10>
 set wildmenu
 set wildchar=<Tab>

@@ -17,7 +17,6 @@ HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 DISABLE_AUTO_UPDATE="false"
-DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -57,7 +56,7 @@ plugins=(git sudo docker systemd debian)
 # User configuration
 
 
-  export PATH="/usr/local/bin:/usr/bin:/bin:/usr/games"
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/games
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
