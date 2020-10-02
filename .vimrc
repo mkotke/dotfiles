@@ -32,8 +32,16 @@ let mapleader=","
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap <F9> :set nu! rnu! nu?<CR>
 nnoremap <F5> :set list!<CR>
+set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
 set pastetoggle=<F10>
 set wildmenu
 set wildchar=<Tab>
 cmap w!! w !sudo tee > /dev/null %
-
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+set hidden
+nmap <leader>T :enew<cr>
+nmap <leader>l :bnext<CR>
+nmap <leader>h :bprevious<CR>
+nmap <leader>bq :bp <BAR> bd #<CR>
+nmap <leader>bl :ls<CR>
